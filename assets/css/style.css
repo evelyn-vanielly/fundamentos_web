@@ -1,0 +1,125 @@
+/*Estilos da página index.html*/
+
+
+.center {
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+   
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    background-color: #86f18a; /* Green */
+    border: thin;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  margin: 50px 600px;
+  cursor: pointer;
+}
+.button5 {font-size: 24px;}
+
+#menu li{
+    display: inline;
+    padding: 20px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+#menu li a:hover {
+    color: lightseagreen;
+}
+
+.bd{
+    padding: 30px;
+    border-radius: 30%;
+}
+
+#margin img {
+    float: left;
+    margin: 30px 60px;
+    }
+
+
+/*Estilos da página contato.html*/
+#jim{
+    padding: 30px;
+    border-radius: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.border{
+    width: 300px;
+    height: 150px;
+    background: #e7dc75;
+    border: 5px solid #b3a52e;
+    border-style: inset;
+    font-size:10px;
+    font-family:  ;
+}
+
+#border2{
+    background: #a9e9d9;
+    border: 5px solid #268a71;
+    border-style: inset;
+    padding: 10px;
+    margin-left:370px;
+    margin-right: 370px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.border3{
+    background: #f3f8af;
+    border: 5px solid #dddf72;
+    border-style: inset;
+    padding: 10px;
+    margin-left:370px;
+    margin-right: 370px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.font
+{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.border5
+{
+    background: #f3f8af;
+    border: 5px solid #dddf72;
+    border-style: inset;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+/*Estilos da página txt.html*/

@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mande sua mensagem</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
-        <li>
+    <style>
+        body {
+          background-image:url(assets/img/gente.jpeg);
+          background-size: cover;
+        }
+        </style>
+    <ul id="menu">
+        <li class="border font">
             <a href="index.html">Começo de tudo</a>
-        </li>
-        <a href="contato.html">Fale comigo!</a>
-        </li>
+            <li class="border font">
+            <a href="contato.html">Fale comigo!</a>
+            </li>
     </ul>
+    <br>
+    <br>
     <h2>E então, como foi o seu dia?</h2>
-        <img src="assets/img/tenor.gif" alt="Michael Scott do The Office ouvindo atentamente">
-        <form action="">
+        <img class= "bd"src="assets/img/tenor.gif" alt="Michael Scott do The Office ouvindo atentamente">
+        <form >
             <br>
             <label for="nome">Qual é seu nome?</label>
             <input type="text" id="nome">
@@ -27,10 +36,8 @@
             <br>
             <label for="dia">Me conte do seu dia!</label>
             <br>
-            <textarea name="dia" id="" cols="30" rows="10"></textarea>
+            <textarea name="dia" id="" cols="40" rows="20"></textarea>
         </form>
 
-        
-  
 </body>
 </html>
