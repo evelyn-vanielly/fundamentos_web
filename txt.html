@@ -6,13 +6,15 @@
     <title>Mande sua mensagem</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <style>
         body {
           background-image:url(assets/img/gente.jpeg);
           background-size: cover;
         }
-        </style>
+    </style>
+
     <ul id="menu">
         <li class="border font">
             <a href="index.html">Começo de tudo</a>
@@ -22,22 +24,29 @@
     </ul>
     <br>
     <br>
-    <h2>E então, como foi o seu dia?</h2>
-        <img class= "bd"src="assets/img/tenor.gif" alt="Michael Scott do The Office ouvindo atentamente">
-        <form >
+    <h2 class="divi">E então, como foi o seu dia?</h2>
+
+        <img class= "bd divi"src="assets/img/tenor.gif" alt="Michael Scott do The Office ouvindo atentamente">
+        
+        <form class="divi side">
             <br>
-            <label for="nome">Qual é seu nome?</label>
-            <input type="text" id="nome">
-            <br>
+            <label for="nome">Qual é seu nome?</label><br>
+            <input type="text" id="nome" onkeyup="validaNome()">
+            <div id="txtNome"> </div>
             <br>
             <label for="email">Qual é seu e-mail?</label>
-            <input type="text" id="email">
+            <input type="email" id="email" onkeyup="validaEmail()">
+            <div id="txtEmail"> </div>
             <br>
             <br>
             <label for="dia">Me conte do seu dia!</label>
             <br>
-            <textarea name="dia" id="" cols="40" rows="20"></textarea>
+            <textarea name="dia" id="texto" cols="36" rows="10"></textarea>
+            <a href=><button class="button5">Enviar</button></a>
         </form>
 
+<script src="assets/js/script.js"></script>
+
 </body>
+
 </html>
