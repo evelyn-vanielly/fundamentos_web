@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,a,label{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    width: 100%;
+    background-color:black;
+    position: fixed; 
+    top: 0; /*para que fique no topo da página*/
+    z-index: 100; /*profundidade*/
+}
+
+nav ul{
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+    margin-top: 25px;
+}
+
+nav a{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;
+}
+
+nav a:hover{
+    color: blue;
+}
+
+#logoGen{
+    width: 130px;
+    height: 50px;
+    margin-right: 200px;
+}
+
+<!--Sobre Generation-->
+h1{
+    margin-top: 130px;
+}
+
+#sobreGen{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#container-sobreGen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-center{
+   text-align: center;
+}
+
+#texto-SobreGen{
+    margin-right: 110px;
+}
+<!--/Sobre Generation>
+
